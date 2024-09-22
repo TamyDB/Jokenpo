@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /*  background-color: lightgrey; */
 }
 
 header,
@@ -13,4 +14,23 @@ body {
 body button {
     padding: 7px;
     margin: 6px;
+}
+
+#images {
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+}
+
+.player p,
+.bot p {
+    width: 150px;
+    background-color: grey;
+    color: black;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: grey;
 }

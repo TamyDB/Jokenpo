@@ -1,14 +1,18 @@
 const result = document.getElementById('win')
+const playerImg = document.getElementById('player')
+const botImg = document.getElementById('bot')
 const rock = document.getElementById('rock')
 const paper = document.getElementById('paper')
 const scissors = document.getElementById('scissors')
 const options = ['rock', 'paper', 'scissors']
 
+
 let playerOption
 
 rock.addEventListener('click', () => {
     playerOption = options[0]
-    gameLoop()
+    playerImg =
+        gameLoop()
 })
 
 paper.addEventListener('click', () => {
